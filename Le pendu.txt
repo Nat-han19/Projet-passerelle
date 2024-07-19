@@ -1,0 +1,19 @@
+Une fois sur le site, cliquer sur le bouton "JOUER"
+
+A partir de ce moment là : 
+- Le mot a trou s'affiche
+- En haut a droite du mot sera afficher le nombre de coup restant (11/11) et le nombre de coup direct restant (1/1) 
+- un clavier AZERTY virtuel s'affiche en-dessous du mot
+- Si la lettre est bonne elle deviendra vert le clavier et s'affichera dans le mot 
+- Si la lettre est mauvaise elle deviendras rouge et le pendu commencera à se dessiner 
+- A chaque fois que le joueur jouera il perdra un coup
+- Le joueur aura la possibilité de tenter un mot il aura le droit qu'à une seule chance
+- Si le joueur trouve le mot alors "Bravo, tu as gagné" et il aura la possibilté de rejouer s'il le souhaite (rejouer)
+- Si le joueur ne trouve pas le mot alors, "Dommage, tu as perdu" il aura la possibilité de retenter sa chance (recommencer)
+
+
+                                            -------------------------------------
+
+
+- Trouver plusieurs mots
+- Si le joueur recommence un nouveau mot lui sera donné
