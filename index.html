@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <script src="JavaScript.js"></script>
+    
     <link rel="shotcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="defaut.css">
     <meta charset="UTF-8">
@@ -9,6 +9,7 @@
     <title>Le jeu du pendu </title>
 </head>
 <body>
+    
     <header>
         <div class="container">
         <h1>Le pendu </h1>
@@ -16,18 +17,28 @@
         </div>
     </header>
 
-        <!-- <div id="grille">
-            <div class="element">
-                <img src="" alt="">
-            </div>
-        </div> -->
+        <div id="hangMan">
+            <img src="images/1.png" alt="">
+            <img src="images/2.png" alt="">
+            <img src="images/3.png" alt="">
+            <img src="images/4.png" alt="">
+            <img src="images/5.png" alt="">
+            <img src="images/6.png" alt="">
+            <img src="images/7.png" alt="">
+            <img src="images/8.png" alt="">
+            <img src="images/9.png" alt="">
+            <img src="images/10.png" alt="">
+            <img src="images/11.png" alt="">
+        </div>
+
+
+        <div id="lucks">
+            <p>Tentatives: <br> <span class="attempts" >11</span>/11</p>
+            <p>Proposer un mot:<br> <span class="word-attempt" >1</span>/1</p>
+        </div>
 
         <div id="hiddenText">
-            BELIEVEMY
-        </div>
-    
-        <div id="score">
-            11/11
+            
         </div>
 
         <ul id="keyboard">
@@ -58,8 +69,11 @@
             <li>Y</li>
             <li>Z</li>
         </ul>
+
         <div id="button">
-            <button>JOUER</button>
+            <button>REJOUER</button>
         </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
