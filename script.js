@@ -1,8 +1,7 @@
 const hiddenText    = document.getElementById("hiddenText");
 const button        = document.getElementById("button");
 const buttonWord    = document.getElementById("buttonWord")
-const words         = [
-                    "JAVASCRIPT",
+const words         = ["JAVASCRIPT",
                     "PROGRAMMATION",
                     "BELIEVEMY",
                     "CODEPEN",
@@ -10,8 +9,7 @@ const words         = [
                     "PERSEVERANCE",
                     "FLEXBOX",
                     "GRID",
-                    "MOTIVATION",
-                    ];
+                    "MOTIVATION",];                  
 const score         = 10;
 const letters       = document.querySelectorAll("#keyboard li");
 const word          = words[Math.floor(Math.random() * words.length)];
@@ -19,8 +17,6 @@ let lettersFound    = 0;
 const hangmanImages = document.querySelectorAll('#hangMan img');
 let attempts        = 11;
 let attemptsImg     = 1
-
-
 
 for (let i = 0; i < letters.length; i++) {
   letters[i].addEventListener("click", function () {
@@ -55,7 +51,6 @@ for (let i = 0; i < letters.length; i++) {
         // On ajoute un membre du pendu
         let membrePendu = document.querySelector('#hangMan img:nth-child(' + (attemptsImg-1) + ')').style.display ='block'
                           document.querySelector('#hangMan img:nth-child(' + (attemptsImg-2) + ')').style.display = 'none';
-        // console.log(membrePendu);
 
         // Si le nombre de tentative est à 0, indiquer à l'utilisateur qu'il a perdu
         if (attempts <= 0) {
@@ -75,7 +70,6 @@ button.addEventListener('click', function() {
 });
  
 // Proposer un mot -> Au clique sur le bouton "Proposer un mot" -> Afficher une fenêtre
-
 buttonWord.addEventListener('click', function() {
 let proposition = prompt ("Quel mot pensez-vous avoir trouvé ?");
 
