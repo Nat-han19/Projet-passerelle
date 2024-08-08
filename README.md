@@ -16,6 +16,7 @@ Pour rendre le jeu fonctionnel, j'ai dû utiliser des fonctionnalités permettan
 - 11 tentatives
 - 2 boutons (pour rejouer et proposer un mot)
 - Un bloc où se dessinera le pendu si vous ne parvenez pas à trouver la bonne lettre
+
 Nathan Futur Dev.Web
 
 
