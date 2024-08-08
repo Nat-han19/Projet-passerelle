@@ -44,15 +44,12 @@ h1 {
     margin: 45px;
 }
 
-#lucks {
-
-}
-
 #hangMan{
     border: 2px solid black;
     width: 300px;
     height: 300px;
     background-color: white;
+    margin: 20px 500px; 
 }
 #hangMan img {
     display: none;
@@ -66,11 +63,11 @@ h1 {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     gap: 15px;
-    margin: 100px 150px 0 150px;
+    margin: 30px 150px 0 150px;
 }
 
 li {
-    border: 2px solid rgba(133, 161, 255, 0.514);;
+    border: 2px solid rgba(133, 161, 255, 0.514);
     text-align: center;
     list-style-type: none;
 }
@@ -87,13 +84,27 @@ li:hover {
 }
 
 #button {
-    text-align: center;
     padding-top: 20px;
+    display: inline-block;
+    margin-left: 550px;
+}
+#buttonWord {
+    padding-top: 20px;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 #hiddenText {
     text-align: center;
+
 }
 #hiddenText span{
     padding: 5px;
+}
+
+.alert {
+    text-align: center;
+    padding-top: 10px;
+    color: black ;
+    font-weight: bolder;
 }
